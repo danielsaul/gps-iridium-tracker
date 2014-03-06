@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -976,11 +976,11 @@ design rules under a new name.</description>
 <element name="C12" library="SparkFun-Passives" package="0402-CAP" value="100nF" x="19.9898" y="6.096" rot="R90"/>
 <element name="C13" library="SparkFun-Passives" package="0402-CAP" value="100nF" x="18.034" y="15.494" rot="R270"/>
 <element name="R10" library="apex" package="R0402" value="10K" x="20.066" y="16.002"/>
-<element name="LED2" library="apex" package="R0402" value="GREEN" x="30.734" y="12.7"/>
+<element name="LED2" library="apex" package="R0402" value="ORANGE" x="30.734" y="12.7"/>
 <element name="LED3" library="apex" package="R0402" value="YELLOW" x="30.734" y="13.97"/>
-<element name="R11" library="apex" package="R0402" value="1K" x="33.274" y="12.7" rot="R180"/>
-<element name="R12" library="apex" package="R0402" value="1K" x="33.274" y="13.97" rot="R180"/>
-<element name="R13" library="apex" package="R0402" value="1K" x="33.274" y="15.24" rot="R180"/>
+<element name="R11" library="apex" package="R0402" value="47R" x="33.274" y="12.7" rot="R180"/>
+<element name="R12" library="apex" package="R0402" value="47R" x="33.274" y="13.97" rot="R180"/>
+<element name="R13" library="apex" package="R0402" value="47R" x="33.274" y="15.24" rot="R180"/>
 <element name="LED4" library="apex" package="R0402" value="RED" x="30.734" y="15.24"/>
 <element name="JP2" library="apex" package="ICSPSMD" value="AVR-ISP-6SMD" x="1.016" y="30.734" rot="MR270"/>
 <element name="R14" library="apex" package="R0402" value="7.5K" x="32.512" y="2.032" rot="MR90"/>
@@ -2076,19 +2076,6 @@ design rules under a new name.</description>
 <wire x1="4.844" y1="9.092" x2="4.59" y2="8.89" width="0.254" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,5cf9722cd5680ecf"/>
-<approved hash="19,1,89eb34e0b4d709dc"/>
-<approved hash="19,1,d27c5a77da6c5267"/>
-<approved hash="19,1,fae583ee03e47aef"/>
-<approved hash="19,1,fa8ca60726fb7a70"/>
-<approved hash="19,1,5f202721fffd7ab8"/>
-<approved hash="19,1,3b74e7678566cfd0"/>
-<approved hash="19,1,69cdcf51b69443de"/>
-<approved hash="19,1,c6daf69df35dbac0"/>
-<approved hash="19,1,518819f41907517b"/>
-<approved hash="19,1,ca42f6c6763e4aba"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
