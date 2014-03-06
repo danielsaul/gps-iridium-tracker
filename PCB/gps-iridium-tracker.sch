@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6186,12 +6186,12 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <part name="GND23" library="apex" deviceset="GND" device=""/>
 <part name="R10" library="apex" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="GND24" library="apex" deviceset="GND" device=""/>
-<part name="LED2" library="apex" deviceset="LED" device="" value="GREEN"/>
+<part name="LED2" library="apex" deviceset="LED" device="" value="ORANGE"/>
 <part name="LED3" library="apex" deviceset="LED" device="" value="YELLOW"/>
-<part name="R11" library="apex" deviceset="R-EU_" device="R0402" value="1K"/>
-<part name="R12" library="apex" deviceset="R-EU_" device="R0402" value="1K"/>
+<part name="R11" library="apex" deviceset="R-EU_" device="R0402" value="47R"/>
+<part name="R12" library="apex" deviceset="R-EU_" device="R0402" value="47R"/>
 <part name="P+11" library="apex" deviceset="3.3V" device=""/>
-<part name="R13" library="apex" deviceset="R-EU_" device="R0402" value="1K"/>
+<part name="R13" library="apex" deviceset="R-EU_" device="R0402" value="47R"/>
 <part name="LED4" library="apex" deviceset="LED" device="" value="RED"/>
 <part name="JP2" library="apex" deviceset="AVR-ISP-6" device="SMD" value="AVR-ISP-6SMD"/>
 <part name="P+12" library="apex" deviceset="3.3V" device=""/>
